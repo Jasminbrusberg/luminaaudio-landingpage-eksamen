@@ -80,4 +80,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
 }
+/* ændre hverdag til guld */
+.highlight {
+  color: #C89B5C;
 }
