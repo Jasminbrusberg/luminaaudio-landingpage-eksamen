@@ -66,12 +66,22 @@
   max-width: 500px;
   color: white;
 }
+
+/* styling af h4 */
+.hero-text h4 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    margin: 0 0 10px 0;
+}
+
 /* styling af overskriften h1 */
 .hero-text h1 {
   font-size: 64px;
-  margin-bottom: 20px;
   font-family: 'Poppins', sans-serif;
   font-family: 600;
+margin: 0 0 30px 0;
+ line-height: 1.2;
 }
 
 /* styling af paragraffen */
@@ -79,6 +89,8 @@
   font-size: 32px;
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
+  margin: 0;
+   line-height: 2;
 }
 /* ændre hverdag til guld */
 .highlight {
