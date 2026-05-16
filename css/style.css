@@ -1,0 +1,50 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #EAE6E3;
+  padding: 40px 30px;
+  position: relative;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.right {
+  justify-content: flex-end;
+  gap: 25px;
+}
+
+/* styler span og icon ift hinanden */
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/* styling af logo */
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo img {
+  width: 180px;
+  height: auto;
+  display: block;
+}
+
+
