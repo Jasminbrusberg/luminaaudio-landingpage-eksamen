@@ -48,7 +48,7 @@
   display: block;
 }
 
-
+/* styling af hero billedet */
 .hero {
   min-height: 80vh;
   background-image: url("../img/lumina-herosektion.png");
@@ -61,11 +61,12 @@
   padding: 0 80px;
 }
 
+/* styling af hero teksten */
 .hero-text {
   max-width: 500px;
   color: white;
 }
-
+/* styling af overskriften h1 */
 .hero-text h1 {
   font-size: 64px;
   margin-bottom: 20px;
@@ -73,6 +74,7 @@
   font-family: 600;
 }
 
+/* styling af paragraffen */
 .hero-text p {
   font-size: 32px;
   font-family: 'Poppins', sans-serif;
