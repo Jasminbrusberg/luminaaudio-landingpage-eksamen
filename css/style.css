@@ -1,4 +1,4 @@
-
+/* styling af menulinjen */
 .header {
   display: flex;
   align-items: center;
@@ -8,11 +8,13 @@
   position: relative;
 }
 
+/* størrelse på ikoner */
 .icon {
   width: 32px;
   height: 32px;
 }
 
+/* styling af ikonernes placering */
 .left,
 .right {
   display: flex;
@@ -32,7 +34,6 @@
   font-size: 16px;
   cursor: pointer;
 }
-
 
 /* styling af logo */
 .logo {
