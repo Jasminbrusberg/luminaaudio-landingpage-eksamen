@@ -97,6 +97,51 @@ margin: 0 0 30px 0;
   color: #C89B5C;
 }
 
+/* placering af knapperne ift hinanden */
+.cta-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 35px;
+}
+
+/* Fælles styling til begge knapper */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 34px;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* gør knappen guld */
+.btn-primary {
+  background-color: #C89B5C;
+  color: black;
+  border: 1px solid #C89B5C;
+}
+
+/* gør knappen gennemsigtig */
+.btn-secondary {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: white;
+  border: 1px solid #C89B5C;
+  backdrop-filter: blur(4px);
+}
+
+/* hoover effekt */
+.btn-primary:hover {
+  background-color: #D8AD70;
+}
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.22);
+}
+
 /* styling af ikonernes placering */
 .hero-features {
   position: absolute;
