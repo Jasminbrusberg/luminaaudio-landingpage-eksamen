@@ -4,13 +4,15 @@
   box-sizing: border-box;
 }
 
+/* variabler */
+ :root { --darkbackground-color: #EAE6E3; }
 
 /* styling af menulinjen */
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #EAE6E3;
+  background-color: var(--darkbackground-color); 
   padding: 32px 30px;
   position: relative;
 }
@@ -194,6 +196,7 @@
 
 /* styling af social proof */
 .social-proof {
+  background-color: var(--darkbackground-color); 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
