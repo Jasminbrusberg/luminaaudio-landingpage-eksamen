@@ -15,6 +15,16 @@
   position: relative;
 }
 
+/* fjern den blå link og streg under span i header */
+.nav-item {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
 /* størrelse på ikoner */
 .icon {
   width: 32px;
