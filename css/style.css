@@ -1,3 +1,10 @@
+
+/* reset css */
+* {
+  box-sizing: border-box;
+}
+
+
 /* styling af menulinjen */
 .header {
   display: flex;
@@ -50,7 +57,7 @@
 
 /* styling af hero billedet */
 .hero {
-  min-height: 80vh;
+  min-height: 88vh;
   background-image: url("../img/lumina-herosektion.png");
   background-size: cover;
   background-position: right;
