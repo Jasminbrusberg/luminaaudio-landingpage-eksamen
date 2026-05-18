@@ -6,6 +6,7 @@
 
 /* variabler */
  :root { --darkbackground-color: #EAE6E3; }
+ :root { --lightbackground-color: #F1EFEC; }
 
 /* styling af menulinjen */
 .header {
