@@ -228,3 +228,138 @@
   font-size: 14px;
   margin-top: 8px;
 }
+
+
+/* Hele Trustpilot-sektionen */
+.trustpilot-section {
+display: flex;
+align-items: center;
+gap: 80px;
+padding: 80px 120px;
+background-color: var(--lightbackground-color);
+}
+
+    /* Venstre side med Trustpilot-score */
+    .trustpilot-summary {
+        width: 320px;
+        text-align: center;
+    }
+
+    /* Trustpilot-logo */
+    .trustpilot-logo img {
+    width: 210px;
+    margin-bottom: 18px;
+    }
+
+    /* De store grønne Trustpilot-stjerner */
+    .trust-stars img {
+        width: 310px;
+        margin-bottom: 24px;
+    }
+
+    /* Stor score: 4,8/5 */
+    .trust-score {
+    font-family: "Inria Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    margin: 0 0 16px 0;
+    line-height: 1;
+    }
+
+    /* Tekst under score */
+    .trust-reviews {
+    font-size: 16px;
+    margin: 0;
+    }
+
+/* Højre side med anmeldelser */
+    .review-area {
+         flex: 1;
+    }
+
+    /* Holder anmeldelseskortene ved siden af hinanden */
+    .review-grid {
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    }
+
+    /* Selve anmeldelseskortet */
+    .review-card {
+        width: 270px;
+        min-height: 260px;
+        padding: 24px;
+        border: 1px solid #908679;
+        border-radius: 8px;
+        background-color: transparent;
+    }
+
+    /* Toppen af kortet med profilbillede og navn */
+    .review-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 16px;
+    }
+
+    /* Profilbillede */
+    .bruger img {
+        width: 48px;
+        height: 48px;
+    }
+
+    /* Navn */
+    .review-header h3 {
+    font-size: 16px;
+     margin: 0;
+    font-weight: 600;
+    }
+
+    /* By */
+    .review-header p {
+    font-size: 13px;
+    margin: 2px 0 0 0;
+    }
+
+    /* Stjerner inde i anmeldelsen */
+    .review-stars {
+    height: 20px;
+    margin-bottom: 18px;
+    }
+
+    /* Anmeldelsestekst */
+    .review-text {
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0;
+    }
+
+    /* Dato nederst */
+    .review-date {
+    font-size: 14px;
+    margin-top: 26px;
+    }
+
+    /* Link nederst */
+    .trustpilot-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 40px;
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    /* Trustpilot-logo i linket */
+    .trustpilot-link img {
+    width: 150px;
+    }
+
+    /* Pil efter linket */
+    .trustpilot-link::after {
+    content: "→";
+    font-size: 28px;
+    margin-left: 8px;
+    }
