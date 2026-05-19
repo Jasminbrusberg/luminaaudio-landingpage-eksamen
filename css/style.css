@@ -81,153 +81,153 @@
  padding: 80px 80px 0 80px;
 }
 
-/* styling af hero teksten */
-.hero-text {
-  max-width: 500px;
-  color: white;
-}
+    /* styling af hero teksten */
+    .hero-text {
+    max-width: 500px;
+    color: white;
+    }
 
-/* styling af h4 */
-.hero-text h4 {
-    font-size: 24px;
+    /* styling af h4 */
+    .hero-text h4 {
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        margin: 0 0 10px 0;
+    }
+
+    /* styling af overskriften h1 */
+    .hero-text h1 {
+    font-size: 64px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-    margin: 0 0 10px 0;
-}
+    font-weight: 600;
+    margin: 0 0 26px 0;
+    line-height: 1.2;
+    }
 
-/* styling af overskriften h1 */
-.hero-text h1 {
-  font-size: 64px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  margin: 0 0 26px 0;
-  line-height: 1.2;
-}
+    /* styling af paragraffen */
+    .hero-text p {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    line-height: 2;
+    }
+    /* ændre hverdag til guld */
+    .highlight {
+    color: #C89B5C;
+    }
 
-/* styling af paragraffen */
-.hero-text p {
-  font-size: 28px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
-  margin: 0;
-   line-height: 2;
-}
-/* ændre hverdag til guld */
-.highlight {
-  color: #C89B5C;
-}
+    /* placering af knapperne ift hinanden */
+    .cta-buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 35px;
+    }
 
-/* placering af knapperne ift hinanden */
-.cta-buttons {
-  display: flex;
-  gap: 16px;
-  margin-top: 35px;
-}
+    /* Fælles styling til begge knapper */
+    .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 34px;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    }
 
-/* Fælles styling til begge knapper */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 18px 34px;
-  border-radius: 12px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-decoration: none;
-  cursor: pointer;
-}
+    /* gør knappen guld */
+    .btn-primary {
+    background-color: #C89B5C;
+    color: black;
+    border: 1px solid #C89B5C;
+    }
 
-/* gør knappen guld */
-.btn-primary {
-  background-color: #C89B5C;
-  color: black;
-  border: 1px solid #C89B5C;
-}
+    /* gør knappen gennemsigtig */
+    .btn-secondary {
+    background-color: rgba(255, 255, 255, 0.12);
+    color: white;
+    border: 1px solid #C89B5C;
+    backdrop-filter: blur(4px);
+    }
 
-/* gør knappen gennemsigtig */
-.btn-secondary {
-  background-color: rgba(255, 255, 255, 0.12);
-  color: white;
-  border: 1px solid #C89B5C;
-  backdrop-filter: blur(4px);
-}
+    /* hoover effekt */
+    .btn-primary:hover {
+    background-color: #D8AD70;
+    }
+    .btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.22);
+    }
 
-/* hoover effekt */
-.btn-primary:hover {
-  background-color: #D8AD70;
-}
-.btn-secondary:hover {
-  background-color: rgba(255, 255, 255, 0.22);
-}
+    /* styling af ikonernes placering */
+    .hero-features {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 65%;
 
-/* styling af ikonernes placering */
-.hero-features {
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+    /* ændre tekst farven */
+    .feature {
+    text-align: center;
+    color: white;
+    }
 
-/* ændre tekst farven */
-.feature {
-  text-align: center;
-  color: white;
-}
+    /* størrelse på ikonerne */
+    .feature-icon img {
+    width: 72px;
+    height: 72px;
+    }
 
-/* størrelse på ikonerne */
-.feature-icon img {
-  width: 72px;
-  height: 72px;
-}
-
-/* styling af p */
-.feature p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.3;
-  margin: 0;
-}
+    /* styling af p */
+    .feature p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 0;
+    }
 
 /* styling af social proof */
 .social-proof {
-  background-color: var(--darkbackground-color); 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 28px 60px;
-}
+    background-color: var(--darkbackground-color); 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 28px 60px;
+ }
 
-.proof-item {
-  text-align: center;
-}
-/* størrelsen på ikonerne */
-.proof-icon {
-  width: 32px;
-  height: 32px;
-}
+    .proof-item {
+    text-align: center;
+    }
+    /* størrelsen på ikonerne */
+    .proof-icon {
+    width: 32px;
+    height: 32px;
+    }
 
-/* styling af h4 overskriften */
-.proof-item h4 {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  margin-bottom: 4px;
-}
+    /* styling af h4 overskriften */
+    .proof-item h4 {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 4px;
+    }
 
-/* styling af paragraf */
-.proof-item p {
-  font-family: "Inria Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  margin-top: 8px;
-}
+    /* styling af paragraf */
+    .proof-item p {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 8px;
+    }
 
 
 /* Hele Trustpilot-sektionen */
