@@ -511,12 +511,12 @@ background-color: var(--lightbackground-color);
     /* list-style: none; fjerner punkterne */
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 32px 0 0;
     display: flex;
     gap: 32px;
     /* width: max-content; gør rækken lige så bred som alt indholdet samlet. */
     width: max-content;
-    animation: autoScroll 25s linear infinite;
+    animation: autoScroll 40s linear infinite;
     /* autoScroll = navnet på animationen */
     /* 25s = animationen varer 25 sekunder */
     /* linear = samme hastighed hele vejen */
@@ -536,6 +536,8 @@ background-color: var(--lightbackground-color);
     /* styler billederne */
     .img-track img {
     height: 360px;
+    width: 360px;
+    object-fit: cover;
     display: block;
     }
 
