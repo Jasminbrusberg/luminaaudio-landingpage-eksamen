@@ -560,4 +560,109 @@ background-color: var(--lightbackground-color);
     /* img = selve billedet */
     /* @keyframes = animationen */
   
+/* styling af produkt kort */
+  .product {
+  background-color: var(--lightbackground-color);
+  padding: 80px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  }
 
+  /* venstre side med produktbillede */
+  .product-left {
+    flex: 1;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  /* billede str. */
+  .product-left img {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    display: block;
+  }
+
+  .product-right {
+  flex: 1;
+  color: black;
+  }
+
+  /* styling af h4 */
+   .product-right h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+   }
+
+   /* styling af p */
+   .product-right p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+     line-height: 1.8;
+    margin: 0 0 24px 0;
+    max-width: 600px;
+   }
+
+   /* pris */
+  .product-right .price {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  }
+  /* produktknapper */
+  .product-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+  }
+  /* fælles styling for begge produktknapper */
+  .btn-product,
+  .btn-product-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 190px;
+    padding: 18px 34px;
+    border-radius: 12px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  /* køb knap */
+  .btn-product {
+  background-color: #C89B5C;
+  color: black;
+  border: 1px solid #C89B5C;
+  }
+  /* sekundær knap */
+  .btn-product-secondary {
+    background-color: transparent;
+    color: black;
+    border: 1px solid #C89B5C;
+  }
+  /* hover-effekter */
+.btn-product:hover {
+  background-color: #D8AD70;
+}
+
+.btn-product-secondary:hover {
+  background-color: var(--darkbackground-color);
+  color: black;
+}
+
+  
