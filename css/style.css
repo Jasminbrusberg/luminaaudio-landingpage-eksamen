@@ -201,6 +201,7 @@
     padding: 28px 60px;
  }
 
+ /* styling af lisents placering */
     .proof-list {
     list-style: none; /* fjerner punkterne */
     margin: 0;
