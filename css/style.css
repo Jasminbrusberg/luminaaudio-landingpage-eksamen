@@ -371,3 +371,66 @@ background-color: var(--lightbackground-color);
     font-size: 28px;
     margin-left: 8px;
     }
+
+
+/* styling af features sektionen */
+.features {
+    min-height: 40vh;
+    background-image: url("../img/features-background.png");
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 40px 80px;
+    }
+
+    /* styling af overskriften */
+    .features h2 {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    line-height: 2;
+    }
+
+    /* listen med features */
+    .feature-list {
+    list-style: none;
+    margin: 32px 0 0 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    /* hvert feature-punkt */
+    .feature-item {
+    text-align: center;
+    color: white;
+    }
+
+    /* størrelsen på ikonerne */
+    .feature-icon {
+    width: 80px;
+    height: 80px;
+    }
+
+    .feature-text h4{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    line-height: 2;
+    }
+
+    .feature-text p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    line-height: 2;
+    }
+    
