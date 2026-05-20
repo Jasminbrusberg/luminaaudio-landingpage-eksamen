@@ -551,5 +551,11 @@ background-color: var(--lightbackground-color);
     }
     }
 
+    /* .image-loop = hele sektionen */
+    /* .image-track = rækken der bevæger sig */
+    /* li = hvert billede-punkt */
+    /* figure = semantisk billed-container */
+    /* img = selve billedet */
+    /* @keyframes = animationen */
   
 
