@@ -198,11 +198,19 @@
 /* styling af social proof */
 .social-proof {
     background-color: var(--darkbackground-color); 
+    padding: 28px 60px;
+ }
+
+    .proof-list {
+    list-style: none; /* fjerner punkterne */
+    margin: 0;
+    padding: 0;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 28px 60px;
- }
+    align-items: center;
+    }
 
     .proof-item {
     text-align: center;
