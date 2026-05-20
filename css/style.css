@@ -516,6 +516,7 @@ background-color: var(--lightbackground-color);
     gap: 32px;
     /* width: max-content; gør rækken lige så bred som alt indholdet samlet. */
     width: max-content;
+    animation: autoScroll 25s linear infinite;
     /* autoScroll = navnet på animationen */
     /* 25s = animationen varer 25 sekunder */
     /* linear = samme hastighed hele vejen */
@@ -538,4 +539,17 @@ background-color: var(--lightbackground-color);
     display: block;
     }
 
- 
+/* @keyframes laver selve animationen. */
+    @keyframes autoScroll {
+    from {
+      /* transform: translateX(0); betyder: start på normal position. */
+      transform: translateX(0); 
+    }
+    to {
+      /* transform: translateX(-50%); betyder: flyt rækken 50% mod venstre. js kopier billederne derfor undgår vi hak når den flytter 50% og starter forfra*/
+      transform: translateX(-50%);
+    }
+    }
+
+  
+
