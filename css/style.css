@@ -498,5 +498,44 @@ background-color: var(--lightbackground-color);
     display: block;
     }
 
+/* styling af hele loop sektionen */
+    .img-loop {
+      /* overflow: hidden; viser kun billederne i sektionens bredde. */
+      overflow: hidden;
+      background-color: var(--lightbackground-color);
+      padding: 40px;
+    }
+
+    /* styler listen med billederne */
+    .img-track {
+    /* list-style: none; fjerner punkterne */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+    /* width: max-content; gør rækken lige så bred som alt indholdet samlet. */
+    width: max-content;
+    /* autoScroll = navnet på animationen */
+    /* 25s = animationen varer 25 sekunder */
+    /* linear = samme hastighed hele vejen */
+    /* infinite = den kører uendeligt */
+    }
+
+    /* styler hver liste */
+    .img-track li {
+    flex: 0 0 auto; /* betyder, at hvert billede beholder sin egen størrelse og ikke bliver mast sammen. */
+    }
+
+    /* styler alle "figure" */
+    .img-track figure {
+      margin: 0;
+    }
+
+    /* styler billederne */
+    .img-track img {
+    height: 360px;
+    display: block;
+    }
 
  
