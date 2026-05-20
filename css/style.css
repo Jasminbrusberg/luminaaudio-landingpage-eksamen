@@ -438,7 +438,7 @@ background-color: var(--lightbackground-color);
   
 /* styling af story sektione */
 .story {
-    background-color: var(--lightbackground-color);
+    background-color: var(--darkbackground-color);
     padding: 80px 80px;
 
     display: flex;
