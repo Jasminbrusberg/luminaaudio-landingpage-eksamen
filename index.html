@@ -292,7 +292,7 @@
 <!-- product card -->
 <section class="product" aria-label="Produktkort">
   <figure class="product-left">
-    <img src="img/lumina-beige.png" alt="Lumina One i beige">
+    <img id="product-image" src="img/lumina-beige.png" alt="Lumina One i beige">
   </figure>
 
   <article class="product-right">
@@ -308,10 +308,38 @@
     <fieldset>
         <!-- <legend> er overskriften til dit <fieldset>. -->
       <legend>Vælg farve:</legend>
-      <button class="color-option beige" type="button" aria-label="Vælg beige"></button>
-      <button class="color-option green" type="button" aria-label="Vælg grøn"></button>
-      <button class="color-option purple" type="button" aria-label="Vælg lilla"></button>
-      <button class="color-option pink" type="button" aria-label="Vælg pink"></button>
+
+      <button
+      class="color-option beige active"
+      type="button"
+      aria-label="Vælg beige"
+      data-image="img/lumina-beige.png"
+      data-alt="Lumina One i beige">
+      </button>
+
+      <button
+      class="color-option green active"
+      type="button"
+      aria-label="Vælg grøn"
+      data-image="img/lumina-green.png"
+      data-alt="Lumina One i green">
+      </button>
+
+      <button
+      class="color-option purple active"
+      type="button"
+      aria-label="Vælg lilla"
+      data-image="img/lumina-purple.png"
+      data-alt="Lumina One i lilla">
+      </button>
+
+      <button
+      class="color-option pink active"
+      type="button"
+      aria-label="Vælg pink"
+      data-image="img/lumina-pink.png"
+      data-alt="Lumina One i pink">
+      </button>
     </fieldset>
   </form>
         <p class="price">1.499 DKK</p>
